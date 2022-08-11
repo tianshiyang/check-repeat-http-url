@@ -20,7 +20,6 @@ function readAllFolder(filePath, suffix, resolve, reject) {
         if (exsitUrls.filter(res => res !== undefined).length) {
           reject(`url路径${exsitUrls}重复`)
         }
-        resolve(res)
       }).catch(err => {
         reject(err)
       })
