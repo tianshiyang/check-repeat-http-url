@@ -1,8 +1,8 @@
 const { readAllFolder } = require("./utils/readFile");
 
-const PluginName = "RequireRepeatHttpUrl";
+const PluginName = "CheckRepeatHttpUrl";
 
-class RequireRepeatHttpUrl {
+class CheckRepeatHttpUrl {
   folderPath = null;
   extensions = null;
 
@@ -54,4 +54,4 @@ class RequireRepeatHttpUrl {
     reject("仅支持检测js或ts文件");
   }
 }
-module.exports = RequireRepeatHttpUrl;
+module.exports = CheckRepeatHttpUrl;

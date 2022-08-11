@@ -16,8 +16,8 @@ function readAllFolder(filePath, suffix, resolve, reject) {
     } else {
       // 遍历读取当前文件的绝对路径
       readAllFolderPath(files, filePath, resolve, reject).then(res => {
-        const exsitUrls = [...new Set(res.flat(99))]
-        if (exsitUrls.length) {
+        const exsitUrls = [...new Set(res.flat(Number.MAX_VALUE))]
+        if (exsitUrls.filter(res => res !== undefined).length) {
           reject(`url路径${exsitUrls}重复`)
         }
         resolve(res)
