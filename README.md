@@ -1,6 +1,7 @@
 # check-repeat-http-url
 检查url是否重复
 使用方法
+
 const CheckRepeatHttpUrl = require("check-repeat-http-url");
 
 new RequireRepeatHttpUrl({
