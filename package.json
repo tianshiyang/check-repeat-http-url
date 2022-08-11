@@ -1,0 +1,22 @@
+{
+  "name": "check-repeat-http-url",
+  "version": "1.0.0",
+  "description": "检查url重复",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianshiyang/check-repeat-http-url.git"
+  },
+  "keywords": [
+    "检查url重复"
+  ],
+  "author": "tianshiyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tianshiyang/check-repeat-http-url/issues"
+  },
+  "homepage": "https://github.com/tianshiyang/check-repeat-http-url#readme"
+}
